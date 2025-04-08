@@ -10,7 +10,7 @@ setup(
     author="SDESA开发团队",
     author_email="sdesa@example.com",
     description="基于SDESA的离散事件模拟Python库",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/sdesa/sdesa-python",
     packages=find_packages(),
